@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "RESOURCE_NAME": "IsaacSim"
+            },
+            "python": "isaac_install_path/kit/python/bin/python3",
+            "envFile": "isaac_install_path/.vscode/.standalone_examples.env",
+            "preLaunchTask": "isaac_install_path/setup_python_env"
+        },
+        {
+            "name": "Python: Attach (windows-x86_64/linux-x86_64)",
+            "type": "python",
+            "request": "attach",
+            "port": 3000,
+            "host": "localhost"
+        },
+        {
+            "name": "(Linux) isaac-sim",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "isaac_install_path/kit/kit",
+            "args": ["isaac_install_path/apps/omni.isaac.sim.kit",
+                "--ext-folder", "isaac_install_path/exts",
+                "--ext-folder", "isaac_install_path/apps"],
+            "stopAtEntry": false,
+            "cwd": "isaac_install_path",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
