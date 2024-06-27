@@ -15,7 +15,7 @@ sed -i "s|isaac_install_path|$ISAAC_PATH|g" .vscode/tasks.json
 echo "Done."
 
 echo "Changing paths in assets/turtlebot3_waffle_pi/urdf/turtlebot3_waffle_pi.urdf/"
-sed -i "s|isaac_install_path|$ISAAC_PATH|g" assets/turtlebot3_waffle_pi/urdf/turtlebot3_waffle_pi.urdf/
+sed -i "s|isaac_install_path|$ISAAC_PATH|g" assets/turtlebot3_waffle_pi/urdf/turtlebot3_waffle_pi.urdf
 echo "Done."
 
 echo "Changing paths in isaac.py"
