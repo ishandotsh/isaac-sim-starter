@@ -208,7 +208,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="-0.064 0 0.0"/>
       <geometry>
-        <mesh filename="isaac_install_path/isaac-sim-starter/assets/turtlebot3_waffle_pi/meshes/bases/waffle_pi_base.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="current_path/assets/turtlebot3_waffle_pi/meshes/bases/waffle_pi_base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="light_black"/>
     </visual>
@@ -234,7 +234,7 @@
     <visual>
       <origin rpy="1.57 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="isaac_install_path/isaac-sim-starter/assets/turtlebot3_waffle_pi/meshes/wheels/left_tire.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="current_path/assets/turtlebot3_waffle_pi/meshes/wheels/left_tire.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dark"/>
     </visual>
@@ -260,7 +260,7 @@
     <visual>
       <origin rpy="1.57 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="isaac_install_path/isaac-sim-starter/assets/turtlebot3_waffle_pi/meshes/wheels/right_tire.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="current_path/assets/turtlebot3_waffle_pi/meshes/wheels/right_tire.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dark"/>
     </visual>
@@ -327,7 +327,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0.0"/>
       <geometry>
-        <mesh filename="isaac_install_path/isaac-sim-starter/assets/turtlebot3_waffle_pi/meshes/sensors/lds.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="current_path/assets/turtlebot3_waffle_pi/meshes/sensors/lds.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dark"/>
     </visual>
