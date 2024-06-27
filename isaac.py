@@ -68,7 +68,7 @@ robot_import_config.distance_scale = 1
 
 robot_import_config.default_drive_type = _urdf.UrdfJointTargetType.JOINT_DRIVE_NONE
 
-robot_urdf_path = "isaac_install_path/isaac-sim-starter/assets/turtlebot3_waffle_pi/urdf/turtlebot3_waffle_pi.urdf"
+robot_urdf_path = "current_path/assets/turtlebot3_waffle_pi/urdf/turtlebot3_waffle_pi.urdf"
 status, robot_prim_path = omni.kit.commands.execute(
      "URDFParseAndImportFile",
      urdf_path=robot_urdf_path,
